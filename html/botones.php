@@ -1,6 +1,6 @@
 <html>
  <head>
-                        <!--index.php--> 
+                        <!--botones.php--> 
  </head>
  <body>
 
@@ -42,17 +42,17 @@
 // Funciones PHP del pin GPIO 17
 
   if ($_POST[encender17]) { 
-   $a- exec("sudo python /var/www/html/leds/gpio/17/enciende.py");
+   $a- exec(" python /var/www/html/leds/ejecgpio/17/enciende.py");
    echo $a;
   }
 
   if ($_POST[apagar17]) { 
-   $a- exec("sudo python /var/www/html/leds/gpio/17/apaga.py");
+   $a- exec(" python /var/www/html/leds/ejecgpio/17/apaga.py");
    echo $a;
   }
 
   if ($_POST[parpadear17]) { 
-   $a- exec("sudo python /var/www/html/leds/gpio/17/parpadea.py");
+   $a- exec(" python /var/www/html/leds/ejecgpio/17/parpadea.py");
    echo $a;
   }
 

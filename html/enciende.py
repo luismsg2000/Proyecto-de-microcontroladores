@@ -6,6 +6,6 @@ import RPi.GPIO as GPIO
 #en este caso el sistema BCM
 GPIO.setmode(GPIO.BCM)
 #Configuramos el pin GPIO 4 como una salida
-GPIO.setup(27, GPIO.OUT)
+GPIO.setup(17, GPIO.OUT)
 #Encendemos el led
-GPIO.output(27, GPIO.HIGH)
+GPIO.output(17, GPIO.HIGH)

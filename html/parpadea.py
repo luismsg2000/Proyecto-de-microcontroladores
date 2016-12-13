@@ -11,14 +11,14 @@ import time
 GPIO.setmode(GPIO.BCM)
 
 #Configuramos el pin GPIO 4 como una salida
-GPIO.setup(4, GPIO.OUT)
+GPIO.setup(17, GPIO.OUT)
 
 #Encendemos y apagamos el led 5 veces
 for i in range(0,5):
 
-        GPIO.output(27, GPIO.HIGH)
+        GPIO.output(17, GPIO.HIGH)
         time.sleep(1)
-        GPIO.output(27, GPIO.LOW)
+        GPIO.output(17, GPIO.LOW)
         time.sleep(1)
 
 #Y liberamos los GPIO
